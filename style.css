@@ -1,0 +1,59 @@
+
+/* Import Fonts & All CSS */
+@import url(css/fancybox.css);
+@import url(css/animate.css);
+@import url(css/bootstrap.min.css);
+@import url(css/flaticon.css);
+@import url(css/font-awesome.min.css);
+@import url(css/magnific-popup.css);
+@import url(css/nice-select.css);
+@import url(css/owl.carousel.min.css);
+@import url(css/themify-icons.css);
+@import url(css/slicknav.css);
+@import url(css/header-footer.css);
+@import url(css/style.css);
+/* :: 1.0 Reboot CSS */
+
+@font-face {
+    font-family: 'Roboto';
+    src:url('fonts/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: 'UTM';
+    src:url('fonts/UTM-Avo.ttf');
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.mt-20{
+	margin-top: 20px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.mt-50{
+	margin-top: 50px;
+}
+.mt-70{
+  margin-top: 70px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-60 {
+  margin-bottom: 60px;
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.mb-70 {
+  margin-bottom: 70px;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}

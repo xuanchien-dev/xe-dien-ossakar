@@ -1,0 +1,14 @@
+
+@media(max-width: 768px){
+	.gogo {
+	    margin-top: 60px;
+	}
+	.header-area,.header-area .main-header-area.sticky{
+		background-color: #bc0a0a;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+.container {
+    max-width: 1200px;
+}
