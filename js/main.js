@@ -148,7 +148,7 @@
 
 
          /*slide-gogo*/
-        $(".slide-a10").owlCarousel({
+        $(".slide-gogo").owlCarousel({
             loop: true,
             margin: 0,
             items: 1,
@@ -175,6 +175,67 @@
         });
 
         // slide-gogo end
+
+         /*slide-nipa*/
+        $(".slider_nipa").owlCarousel({
+            loop: true,
+            margin: 0,
+            items: 2,
+            autoplay: true,
+            navText: ['<img src="./images/prev-nipa.png" alt="" />', '<img src="./images/next-nipa.png" alt="" />'],
+            nav: true,
+            dots: true,
+            smartSpeed: 500,
+            autoplaySpeed: 300,
+            responsive: {
+                0: {
+                    items: 2,
+                    dots: true,
+                },
+                767: {
+                    items: 2,
+                    dots: true,
+                },
+                992: {
+                    items: 2,
+                    dots: true,
+                },
+            },
+        });
+
+        // slide-nipa end
+
+
+         /*slide-cl-nipa*/
+        $(".slider_cl_nipa").owlCarousel({
+            loop: true,
+            margin: 0,
+            items: 1,
+            autoplay: true,
+            navText: ['<img src="./images/prev-nipa.png" alt="" />', '<img src="./images/next-nipa.png" alt="" />'],
+            nav: true,
+            dots: true,
+            smartSpeed: 500,
+            autoplaySpeed: 300,
+            responsive: {
+                0: {
+                    items: 1,
+                    dots: true,
+                },
+                767: {
+                    items: 1,
+                    dots: true,
+                },
+                992: {
+                    items: 1,
+                    dots: true,
+                },
+            },
+        });
+
+        // slide-cl-nipa end
+
+
 
         // filter items on button click
         $(".portfolio-menu").on("click", "button", function () {
