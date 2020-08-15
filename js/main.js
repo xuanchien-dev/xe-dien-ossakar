@@ -473,6 +473,7 @@
                 var number = $(this).index();
                 sync2.trigger('to.owl.carousel', [number, 100, true]);
             });
+            
 
    
 })(jQuery);

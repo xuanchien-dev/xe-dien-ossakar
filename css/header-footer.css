@@ -141,6 +141,7 @@
 .header-area .main-header-area .main-menu ul li .submenu {
   position: absolute;
   left: -100px;
+  margin-top: 10px;
   top: 140%;
   background: #fff;
   width: Calc(100% * 8 );
@@ -173,9 +174,6 @@
   display: none;
 }
 
-.header-area .main-header-area .main-menu ul li .submenu li:hover a {
-  color: #ed1f26;
-}
 
 .header-area .main-header-area .main-menu ul li:hover > .submenu {
   opacity: 1;
@@ -300,10 +298,11 @@
 }
 .header-area .main-header-area.sticky .main-menu ul li .submenu {
   position: absolute;
-  left: 0;
+  left: -100px;
+  margin-top: 10px;
   top: 140%;
   background: #fff;
-  width: 200px;
+  width: calc(100% * 8);
   z-index: 2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
   opacity: 0;
@@ -334,7 +333,7 @@
 }
 
 .header-area .main-header-area.sticky .main-menu ul li .submenu li:hover a {
-  color: #78b454;
+  color: #ed2025;
 }
 .header-area .main-header-area.sticky .main-menu ul li:hover > .submenu {
   opacity: 1;

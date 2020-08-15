@@ -803,7 +803,7 @@ h3 {
 /*css-xe nipa*/
 
 .nipa .owl-carousel .owl-item img{
-  margin-top: 160px;
+  margin-top: 110px;
 }
 .box-tk-nipa .owl-dots .owl-dot:nth-child(1),
 .box-tk-nipa .owl-dots .owl-dot:nth-child(2),
@@ -1145,7 +1145,42 @@ h3 {
   color: black;
   text-transform: uppercase;
 }
-.mn-pc img{
+.mn-pc .tab-content a img{
   width: 288px;
   height: 288px;
+}
+.mn-pc .tab-content a{
+ direction: inherit;
+}
+.mn-c3 ul li:nth-child(1){
+  width: 50%;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+}
+.mn-c3 ul li:nth-child(2){
+  width: 50%;
+  float: right;
+  text-align: center;
+  text-transform: uppercase;
+}
+.mn-c3 ul li.active{
+   background-color: rgb(73 76 77 / 17%);
+}
+.nav-tabs{
+  border-bottom: none;
+}
+.header-area .main-header-area .main-menu ul li .mn-c3 ul li a {
+  position: relative;
+  display: block;
+}
+.header-area .main-header-area .main-menu ul li .mn-c3 ul li:hover a {
+  color: #ed1f26;
+}
+.menu-pc img{
+  width: 150px;
+  height: 150px;
+}
+.menu-pc li{
+ float: left;
 }
