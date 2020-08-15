@@ -1145,3 +1145,7 @@ h3 {
   color: black;
   text-transform: uppercase;
 }
+.mn-pc img{
+  width: 288px;
+  height: 288px;
+}

@@ -140,14 +140,14 @@
 
 .header-area .main-header-area .main-menu ul li .submenu {
   position: absolute;
-  left: 0;
+  left: -100px;
   top: 140%;
   background: #fff;
-  width: 200px;
+  width: Calc(100% * 8 );
   z-index: 2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  /*visibility: hidden;*/
   -webkit-transition: 0.6s;
   -moz-transition: 0.6s;
   -o-transition: 0.6s;
