@@ -1136,7 +1136,7 @@ h3 {
   font-size: 24px;
   color: #32353C;
 }
-.content-ho-tro{
+.content-ho-tro,.content-cua-hang{
   margin-top: 160px;
 }
 .chu-ky h3{
@@ -1146,11 +1146,8 @@ h3 {
   text-transform: uppercase;
 }
 .mn-pc .tab-content a img{
-  width: 288px;
-  height: 288px;
-}
-.mn-pc .tab-content a{
- direction: inherit;
+  width: 258px;
+  height: 200px;
 }
 .mn-c3 ul li:nth-child(1){
   width: 50%;
@@ -1170,17 +1167,108 @@ h3 {
 .nav-tabs{
   border-bottom: none;
 }
-.header-area .main-header-area .main-menu ul li .mn-c3 ul li a {
-  position: relative;
-  display: block;
-}
-.header-area .main-header-area .main-menu ul li .mn-c3 ul li:hover a {
+
+.header-area .main-header-area .main-menu ul li .mn-c3 ul>li:hover a{
   color: #ed1f26;
 }
 .menu-pc img{
-  width: 150px;
-  height: 150px;
+  width: 272px;
+  height: 200px;
+  margin-top: 50px;
 }
-.menu-pc li{
+.menu-pc li a{
  float: left;
+}
+.destop li a{
+    display:inline-block !important;
+  }
+.menu-pc span{
+  position: absolute;
+  top: 10px;
+  left: 25%;
+}
+.menu-pc{
+  width: calc(100% * 16) !important;
+  left: -920px!important;
+}
+
+/*css-cua-hang*/
+
+ #search {
+    float: right;
+    margin-top: 9px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    float: right;
+    line-height: 22px;
+}
+
+    .search input {
+        width: 100%;
+        float: right;
+        margin-right: 0px;
+        -webkit-transition: all 0.7s ease-in-out;
+        -moz-transition: all 0.7s ease-in-out;
+        -o-transition: all 0.7s ease-in-out;
+        transition: all 0.7s ease-in-out;
+        height: 40px;
+        line-height: 18px;
+        padding: 0 2px 0 15px;
+        border-radius: 25px;
+    }
+
+.btn {
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius: 25px;
+    padding: 0PX 20PX;
+}
+.d-chi h2{
+  font-weight: bold;
+  color: #f75507;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.d-chi{
+  width: 100%;
+  border: 1px solid #00000026;
+  padding: 25px;
+  margin-top: 20px;
+}
+.d-chi i{
+  font-size: 20px;
+  color:#f75507;
+  margin-right: 10px; 
+}
+.d-chi span{
+  color:#f75507;
+}
+.box-dc{
+   margin-top: 50px;
+   max-height: 500px;
+   overflow-y: scroll;
+}
+.btn-primary{
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  background: rgba(246,41,12,1);
+  background: -moz-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(246,41,12,1) 1%, rgba(245,130,101,1) 51%, rgba(231,56,39,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(246,41,12,1)), color-stop(1%, rgba(246,41,12,1)), color-stop(51%, rgba(245,130,101,1)), color-stop(100%, rgba(231,56,39,1)));
+  background: -webkit-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(246,41,12,1) 1%, rgba(245,130,101,1) 51%, rgba(231,56,39,1) 100%);
+  background: -o-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(246,41,12,1) 1%, rgba(245,130,101,1) 51%, rgba(231,56,39,1) 100%);
+  background: -ms-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(246,41,12,1) 1%, rgba(245,130,101,1) 51%, rgba(231,56,39,1) 100%);
+  background: linear-gradient(to right, rgba(246,41,12,1) 0%, rgba(246,41,12,1) 1%, rgba(245,130,101,1) 51%, rgba(231,56,39,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6290c', endColorstr='#e73827', GradientType=1 );
+}
+.img-map{
+  max-height: 500px;
 }
