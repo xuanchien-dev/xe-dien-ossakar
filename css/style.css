@@ -1161,9 +1161,10 @@ h3 {
   text-align: center;
   text-transform: uppercase;
 }
-.mn-c3 ul li.active{
-   background-color: rgb(73 76 77 / 17%);
+.mn-c3 ul li.active,.menu-pc li a span:hover {
+    background-color: rgb(73 76 77 / 17%);
 }
+
 .nav-tabs{
   border-bottom: none;
 }
@@ -1185,7 +1186,10 @@ h3 {
 .menu-pc span{
   position: absolute;
   top: 10px;
-  left: 25%;
+  width: 100%;
+  text-align: center;
+  padding: 5px 20px;
+  text-transform: uppercase;
 }
 .menu-pc{
   width: calc(100% * 16) !important;
@@ -1223,7 +1227,7 @@ h3 {
         border-radius: 25px;
     }
 
-.btn {
+.box-address .btn {
     height: 40px;
     position: absolute;
     right: 0;
@@ -1252,11 +1256,11 @@ h3 {
   color:#f75507;
 }
 .box-dc{
-   margin-top: 50px;
+   margin-top: 70px;
    max-height: 500px;
    overflow-y: scroll;
 }
-.btn-primary{
+.box-address .btn-primary,.btn-success{
   border: none;
   outline: none;
   text-transform: uppercase;
@@ -1271,4 +1275,74 @@ h3 {
 }
 .img-map{
   max-height: 500px;
+}
+.modal-backdrop{
+  z-index: 999;
+}
+.btn-success{
+  border-radius: 25px;
+  text-transform: uppercase;
+  padding: 8px 40px;
+}
+.btn-success:hover{
+  background-color: #ed2025 !important;
+}
+.form-horizontal label{
+  font-size: 20px;
+  color: black;
+}
+.btn:focus,.btn{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.modal-header{
+  border-bottom: none;
+}
+.modal-header .close{
+  border-radius: 50%;
+  color: #fff;
+  background-color: #2d2a2af7;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 2px;
+  top: 0px;
+  opacity: 1;
+  z-index: 9999999;
+}
+.modal-header span{
+  position: absolute;
+  top: 4px;
+  left: 10px;
+}
+.img-map iframe{
+  height: 100%;
+  width: 100%
+}
+.menu-pc span{
+  position: relative;
+  display: block;
+}
+.menu-pc span;hover{
+ color: #ed2025;
+}
+.menu-pc span::before {
+    position: absolute;
+    content: "";
+    background: #ed2025;
+    width: 50%;
+    height: 3px;
+    bottom: 0px;
+    left: 25%;
+    opacity: 0;
+    transform: scaleX(0);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.menu-pc span:hover:before {
+    opacity: 1;
+    transform: scaleX(1);
 }
