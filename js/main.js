@@ -189,7 +189,7 @@
             autoplaySpeed: 300,
             responsive: {
                 0: {
-                    items: 2,
+                    items: 1,
                     dots: true,
                 },
                 767: {
